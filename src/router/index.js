@@ -16,7 +16,8 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
   },
   {
-    path: '/hola-mundo',
+    // los ":" indican que es una parte variable de la ruta
+    path: '/hola-mundo/:nombre_de_la_parte_variable',
     name: 'hola-mundo',
     component: HolaMundo
   },
