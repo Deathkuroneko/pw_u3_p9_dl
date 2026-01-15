@@ -4,8 +4,9 @@
         <p>¡Bienvenido a la página de Hola Mundo!</p>
 
         <h1>Consultando datos del estudiante</h1>
-        <button @click="mostrarId">Mostrar ID</button>
         <p>ID del estudiante: {{ idEstudiante }}</p>
+        <button @click="mostrarId()">Mostrar ID</button>
+        
     </div>
 </template>
 
